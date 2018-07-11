@@ -31,7 +31,7 @@ def gradientDescent(x,y,theta,alpha,iters):
 
 
 
-path=os.getcwd()+'/python-training/LinearRegression/ex1data1.txt'
+path=os.getcwd()+'/LinearRegression/ex1data1.txt'
 data =pd.read_csv(path,header=None,names=['Population','Profit'])
 head =data.head()
 describe=data.describe()
