@@ -1,7 +1,7 @@
 # tırmanma yarışması :)
 import matplotlib.pyplot as plt
 import numpy as np
-np.random.seed(123)
+np.random.seed(5)
 all_walks = []
 
 for i in range(5):
